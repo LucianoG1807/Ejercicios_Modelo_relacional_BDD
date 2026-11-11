@@ -1,0 +1,1267 @@
+<mxfile host="Electron" agent="ChatGPT">
+  <diagram id="modelo-relacional-clinica" name="Modelo relacional 3FN">
+    <mxGraphModel dx="2084" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t_pac" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;verticalAlign=middle;strokeColor=#82b366;fillColor=#d5e8d4;swimlaneLine=1;tableRender=collapsed;" value="PACIENTE" vertex="1">
+          <mxGeometry height="220" width="1045" x="378" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pacr0" parent="t_pac" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];fillColor=#f5f5f5;strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="1045" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pacr0_c0" parent="pacr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="PK_num_historia_clinica" vertex="1">
+          <mxGeometry height="30" width="178" as="geometry">
+            <mxRectangle height="30" width="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr0_c1" parent="pacr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="apellido" vertex="1">
+          <mxGeometry height="30" width="140" x="178" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr0_c2" parent="pacr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="nombre" vertex="1">
+          <mxGeometry height="30" width="142" x="318" as="geometry">
+            <mxRectangle height="30" width="142" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr0_c3" parent="pacr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="fecha_nacimiento" vertex="1">
+          <mxGeometry height="30" width="152" x="460" as="geometry">
+            <mxRectangle height="30" width="152" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr0_c4" parent="pacr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="domicilio" vertex="1">
+          <mxGeometry height="30" width="153" x="612" as="geometry">
+            <mxRectangle height="30" width="153" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr0_c5" parent="pacr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="obra_social" vertex="1">
+          <mxGeometry height="30" width="140" x="765" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr0_c6" parent="pacr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="DNI" vertex="1">
+          <mxGeometry height="30" width="140" x="905" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr1" parent="t_pac" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="1045" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pacr1_c0" parent="pacr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="HC-001" vertex="1">
+          <mxGeometry height="30" width="178" as="geometry">
+            <mxRectangle height="30" width="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr1_c1" parent="pacr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Gomez" vertex="1">
+          <mxGeometry height="30" width="140" x="178" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr1_c2" parent="pacr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Luciano" vertex="1">
+          <mxGeometry height="30" width="142" x="318" as="geometry">
+            <mxRectangle height="30" width="142" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr1_c3" parent="pacr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="18/07/2000" vertex="1">
+          <mxGeometry height="30" width="152" x="460" as="geometry">
+            <mxRectangle height="30" width="152" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr1_c4" parent="pacr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="San Martin 450" vertex="1">
+          <mxGeometry height="30" width="153" x="612" as="geometry">
+            <mxRectangle height="30" width="153" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr1_c5" parent="pacr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="OSDE" vertex="1">
+          <mxGeometry height="30" width="140" x="765" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr1_c6" parent="pacr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="42111000" vertex="1">
+          <mxGeometry height="30" width="140" x="905" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr2" parent="t_pac" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="1045" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="pacr2_c0" parent="pacr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="HC-002" vertex="1">
+          <mxGeometry height="30" width="178" as="geometry">
+            <mxRectangle height="30" width="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr2_c1" parent="pacr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Perez" vertex="1">
+          <mxGeometry height="30" width="140" x="178" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr2_c2" parent="pacr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Mariana" vertex="1">
+          <mxGeometry height="30" width="142" x="318" as="geometry">
+            <mxRectangle height="30" width="142" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr2_c3" parent="pacr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="12/05/1995" vertex="1">
+          <mxGeometry height="30" width="152" x="460" as="geometry">
+            <mxRectangle height="30" width="152" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr2_c4" parent="pacr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Belgrano 1200" vertex="1">
+          <mxGeometry height="30" width="153" x="612" as="geometry">
+            <mxRectangle height="30" width="153" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr2_c5" parent="pacr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Swiss Medical" vertex="1">
+          <mxGeometry height="30" width="140" x="765" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr2_c6" parent="pacr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="39222111" vertex="1">
+          <mxGeometry height="30" width="140" x="905" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr3" parent="t_pac" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="1045" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="pacr3_c0" parent="pacr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="HC-003" vertex="1">
+          <mxGeometry height="30" width="178" as="geometry">
+            <mxRectangle height="30" width="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr3_c1" parent="pacr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Rodriguez" vertex="1">
+          <mxGeometry height="30" width="140" x="178" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr3_c2" parent="pacr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Carlos" vertex="1">
+          <mxGeometry height="30" width="142" x="318" as="geometry">
+            <mxRectangle height="30" width="142" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr3_c3" parent="pacr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="03/11/1988" vertex="1">
+          <mxGeometry height="30" width="152" x="460" as="geometry">
+            <mxRectangle height="30" width="152" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr3_c4" parent="pacr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Las Heras 890" vertex="1">
+          <mxGeometry height="30" width="153" x="612" as="geometry">
+            <mxRectangle height="30" width="153" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr3_c5" parent="pacr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Galeno" vertex="1">
+          <mxGeometry height="30" width="140" x="765" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr3_c6" parent="pacr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="35333444" vertex="1">
+          <mxGeometry height="30" width="140" x="905" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr4" parent="t_pac" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="1045" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="pacr4_c0" parent="pacr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="HC-004" vertex="1">
+          <mxGeometry height="30" width="178" as="geometry">
+            <mxRectangle height="30" width="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr4_c1" parent="pacr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Lopez" vertex="1">
+          <mxGeometry height="30" width="140" x="178" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr4_c2" parent="pacr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Sofia" vertex="1">
+          <mxGeometry height="30" width="142" x="318" as="geometry">
+            <mxRectangle height="30" width="142" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr4_c3" parent="pacr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="22/01/2002" vertex="1">
+          <mxGeometry height="30" width="152" x="460" as="geometry">
+            <mxRectangle height="30" width="152" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr4_c4" parent="pacr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Mitre 310" vertex="1">
+          <mxGeometry height="30" width="153" x="612" as="geometry">
+            <mxRectangle height="30" width="153" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr4_c5" parent="pacr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Medicus" vertex="1">
+          <mxGeometry height="30" width="140" x="765" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr4_c6" parent="pacr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="43444555" vertex="1">
+          <mxGeometry height="30" width="140" x="905" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr5" parent="t_pac" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="1045" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pacr5_c0" parent="pacr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="HC-005" vertex="1">
+          <mxGeometry height="30" width="178" as="geometry">
+            <mxRectangle height="30" width="178" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr5_c1" parent="pacr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Diaz" vertex="1">
+          <mxGeometry height="30" width="140" x="178" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr5_c2" parent="pacr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Joaquin" vertex="1">
+          <mxGeometry height="30" width="142" x="318" as="geometry">
+            <mxRectangle height="30" width="142" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr5_c3" parent="pacr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="14/09/1990" vertex="1">
+          <mxGeometry height="30" width="152" x="460" as="geometry">
+            <mxRectangle height="30" width="152" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr5_c4" parent="pacr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="España 770" vertex="1">
+          <mxGeometry height="30" width="153" x="612" as="geometry">
+            <mxRectangle height="30" width="153" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr5_c5" parent="pacr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Sancor" vertex="1">
+          <mxGeometry height="30" width="140" x="765" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pacr5_c6" parent="pacr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="37555666" vertex="1">
+          <mxGeometry height="30" width="140" x="905" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_med" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;verticalAlign=middle;strokeColor=#82b366;fillColor=#d5e8d4;swimlaneLine=1;tableRender=collapsed;" value="MEDICO" vertex="1">
+          <mxGeometry height="220" width="770" x="515.5" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="medr0" parent="t_med" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];fillColor=#f5f5f5;strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="770" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="medr0_c0" parent="medr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="PK_matricula_prof" vertex="1">
+          <mxGeometry height="30" width="120" as="geometry">
+            <mxRectangle height="30" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr0_c1" parent="medr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="nombre_medico" vertex="1">
+          <mxGeometry height="30" width="130" x="120" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr0_c2" parent="medr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="apellido_medico" vertex="1">
+          <mxGeometry height="30" width="130" x="250" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr0_c3" parent="medr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="telefono_contacto" vertex="1">
+          <mxGeometry height="30" width="130" x="380" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr0_c4" parent="medr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="correo_inst" vertex="1">
+          <mxGeometry height="30" width="130" x="510" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr0_c5" parent="medr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="fecha_ingreso" vertex="1">
+          <mxGeometry height="30" width="130" x="640" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr1" parent="t_med" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="770" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="medr1_c0" parent="medr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-4521" vertex="1">
+          <mxGeometry height="30" width="120" as="geometry">
+            <mxRectangle height="30" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr1_c1" parent="medr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Esteban" vertex="1">
+          <mxGeometry height="30" width="130" x="120" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr1_c2" parent="medr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Quinteros" vertex="1">
+          <mxGeometry height="30" width="130" x="250" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr1_c3" parent="medr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="2615551234" vertex="1">
+          <mxGeometry height="30" width="130" x="380" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr1_c4" parent="medr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="equinteros@clnica.com" vertex="1">
+          <mxGeometry height="30" width="130" x="510" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr1_c5" parent="medr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="10/02/2015" vertex="1">
+          <mxGeometry height="30" width="130" x="640" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr2" parent="t_med" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="770" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="medr2_c0" parent="medr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-4890" vertex="1">
+          <mxGeometry height="30" width="120" as="geometry">
+            <mxRectangle height="30" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr2_c1" parent="medr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Valeria" vertex="1">
+          <mxGeometry height="30" width="130" x="120" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr2_c2" parent="medr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Sosa" vertex="1">
+          <mxGeometry height="30" width="130" x="250" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr2_c3" parent="medr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="2614449876" vertex="1">
+          <mxGeometry height="30" width="130" x="380" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr2_c4" parent="medr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="vsosa@clinica.com" vertex="1">
+          <mxGeometry height="30" width="130" x="510" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr2_c5" parent="medr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="15/06/2018" vertex="1">
+          <mxGeometry height="30" width="130" x="640" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr3" parent="t_med" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="770" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="medr3_c0" parent="medr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-5120" vertex="1">
+          <mxGeometry height="30" width="120" as="geometry">
+            <mxRectangle height="30" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr3_c1" parent="medr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Ramiro" vertex="1">
+          <mxGeometry height="30" width="130" x="120" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr3_c2" parent="medr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Navarro" vertex="1">
+          <mxGeometry height="30" width="130" x="250" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr3_c3" parent="medr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="2617773322" vertex="1">
+          <mxGeometry height="30" width="130" x="380" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr3_c4" parent="medr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="rnavarro@clinica.com" vertex="1">
+          <mxGeometry height="30" width="130" x="510" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr3_c5" parent="medr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="01/09/2020" vertex="1">
+          <mxGeometry height="30" width="130" x="640" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr4" parent="t_med" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="770" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="medr4_c0" parent="medr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-5334" vertex="1">
+          <mxGeometry height="30" width="120" as="geometry">
+            <mxRectangle height="30" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr4_c1" parent="medr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Natalia" vertex="1">
+          <mxGeometry height="30" width="130" x="120" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr4_c2" parent="medr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Acosta" vertex="1">
+          <mxGeometry height="30" width="130" x="250" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr4_c3" parent="medr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="2613338899" vertex="1">
+          <mxGeometry height="30" width="130" x="380" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr4_c4" parent="medr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="nacosta@clinica.com" vertex="1">
+          <mxGeometry height="30" width="130" x="510" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr4_c5" parent="medr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="12/01/2022" vertex="1">
+          <mxGeometry height="30" width="130" x="640" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr5" parent="t_med" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="770" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="medr5_c0" parent="medr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-5891" vertex="1">
+          <mxGeometry height="30" width="120" as="geometry">
+            <mxRectangle height="30" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr5_c1" parent="medr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Mauricio" vertex="1">
+          <mxGeometry height="30" width="130" x="120" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr5_c2" parent="medr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Silva" vertex="1">
+          <mxGeometry height="30" width="130" x="250" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr5_c3" parent="medr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="2612221100" vertex="1">
+          <mxGeometry height="30" width="130" x="380" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr5_c4" parent="medr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="msilva@clinica.com" vertex="1">
+          <mxGeometry height="30" width="130" x="510" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medr5_c5" parent="medr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="20/03/2023" vertex="1">
+          <mxGeometry height="30" width="130" x="640" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_esp" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;verticalAlign=middle;strokeColor=#82b366;fillColor=#d5e8d4;swimlaneLine=1;tableRender=collapsed;" value="ESPECIALIDAD" vertex="1">
+          <mxGeometry height="220" width="600" x="600.5" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="espr0" parent="t_esp" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];fillColor=#f5f5f5;strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="600" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="espr0_c0" parent="espr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="PK_id_especialidad" vertex="1">
+          <mxGeometry height="30" width="130" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr0_c1" parent="espr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="nombre_especialidad" vertex="1">
+          <mxGeometry height="30" width="160" x="130" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr0_c2" parent="espr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="area_medica" vertex="1">
+          <mxGeometry height="30" width="140" x="290" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr0_c3" parent="espr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="descripcion" vertex="1">
+          <mxGeometry height="30" width="170" x="430" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr1" parent="t_esp" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="600" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="espr1_c0" parent="espr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ESP-01" vertex="1">
+          <mxGeometry height="30" width="130" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr1_c1" parent="espr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Cardiologia" vertex="1">
+          <mxGeometry height="30" width="160" x="130" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr1_c2" parent="espr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Clinica" vertex="1">
+          <mxGeometry height="30" width="140" x="290" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr1_c3" parent="espr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Salud cardiovascular" vertex="1">
+          <mxGeometry height="30" width="170" x="430" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr2" parent="t_esp" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="600" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="espr2_c0" parent="espr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ESP-02" vertex="1">
+          <mxGeometry height="30" width="130" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr2_c1" parent="espr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Pediatria" vertex="1">
+          <mxGeometry height="30" width="160" x="130" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr2_c2" parent="espr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Infantil" vertex="1">
+          <mxGeometry height="30" width="140" x="290" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr2_c3" parent="espr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Atencion infantil" vertex="1">
+          <mxGeometry height="30" width="170" x="430" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr3" parent="t_esp" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="600" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="espr3_c0" parent="espr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ESP-03" vertex="1">
+          <mxGeometry height="30" width="130" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr3_c1" parent="espr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Traumatologia" vertex="1">
+          <mxGeometry height="30" width="160" x="130" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr3_c2" parent="espr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Quirurgica" vertex="1">
+          <mxGeometry height="30" width="140" x="290" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr3_c3" parent="espr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Sistema osteoarticular" vertex="1">
+          <mxGeometry height="30" width="170" x="430" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr4" parent="t_esp" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="espr4_c0" parent="espr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ESP-04" vertex="1">
+          <mxGeometry height="30" width="130" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr4_c1" parent="espr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Dermatologia" vertex="1">
+          <mxGeometry height="30" width="160" x="130" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr4_c2" parent="espr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Clinica" vertex="1">
+          <mxGeometry height="30" width="140" x="290" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr4_c3" parent="espr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Cuidado de piel" vertex="1">
+          <mxGeometry height="30" width="170" x="430" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr5" parent="t_esp" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="600" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="espr5_c0" parent="espr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ESP-05" vertex="1">
+          <mxGeometry height="30" width="130" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr5_c1" parent="espr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Oftalmologia" vertex="1">
+          <mxGeometry height="30" width="160" x="130" as="geometry">
+            <mxRectangle height="30" width="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr5_c2" parent="espr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Especializada" vertex="1">
+          <mxGeometry height="30" width="140" x="290" as="geometry">
+            <mxRectangle height="30" width="140" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="espr5_c3" parent="espr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Salud visual" vertex="1">
+          <mxGeometry height="30" width="170" x="430" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_mesp" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;verticalAlign=middle;strokeColor=#000000;fillColor=#f8cecc;swimlaneLine=1;tableRender=collapsed;" value="MEDICO_ESPECIALIDAD" vertex="1">
+          <mxGeometry height="220" width="550" x="625" y="1015" as="geometry" />
+        </mxCell>
+        <mxCell id="mespr0" parent="t_mesp" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];fillColor=#f5f5f5;strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="550" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mespr0_c0" parent="mespr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=#fad9d5;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="PK_medico_especialidad" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr0_c1" parent="mespr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=#fad9d5;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="FK_matricula_prof" vertex="1">
+          <mxGeometry height="30" width="190" x="170" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr0_c2" parent="mespr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=#fad9d5;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="FK_id_especialidad" vertex="1">
+          <mxGeometry height="30" width="190" x="360" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr1" parent="t_mesp" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="550" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mespr1_c0" parent="mespr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ME-01" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr1_c1" parent="mespr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-4521" vertex="1">
+          <mxGeometry height="30" width="190" x="170" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr1_c2" parent="mespr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ESP-01" vertex="1">
+          <mxGeometry height="30" width="190" x="360" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr2" parent="t_mesp" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="550" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mespr2_c0" parent="mespr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ME-02" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr2_c1" parent="mespr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-4890" vertex="1">
+          <mxGeometry height="30" width="190" x="170" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr2_c2" parent="mespr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ESP-02" vertex="1">
+          <mxGeometry height="30" width="190" x="360" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr3" parent="t_mesp" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="550" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="mespr3_c0" parent="mespr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ME-03" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr3_c1" parent="mespr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-5120" vertex="1">
+          <mxGeometry height="30" width="190" x="170" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr3_c2" parent="mespr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ESP-03" vertex="1">
+          <mxGeometry height="30" width="190" x="360" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr4" parent="t_mesp" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="550" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mespr4_c0" parent="mespr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ME-04" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr4_c1" parent="mespr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-5334" vertex="1">
+          <mxGeometry height="30" width="190" x="170" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr4_c2" parent="mespr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ESP-04" vertex="1">
+          <mxGeometry height="30" width="190" x="360" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr5" parent="t_mesp" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="550" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mespr5_c0" parent="mespr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ME-05" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr5_c1" parent="mespr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-5891" vertex="1">
+          <mxGeometry height="30" width="190" x="170" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mespr5_c2" parent="mespr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ESP-05" vertex="1">
+          <mxGeometry height="30" width="190" x="360" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_tur" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;verticalAlign=middle;strokeColor=#82b366;fillColor=#d5e8d4;swimlaneLine=1;tableRender=collapsed;" value="TURNO" vertex="1">
+          <mxGeometry height="220" width="1085" x="358" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="turr0" parent="t_tur" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];fillColor=#f5f5f5;strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="1085" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="turr0_c0" parent="turr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="PK_id_turno" vertex="1">
+          <mxGeometry height="30" width="155" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr0_c1" parent="turr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="fecha_turno" vertex="1">
+          <mxGeometry height="30" width="155" x="155" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr0_c2" parent="turr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="hora_turno" vertex="1">
+          <mxGeometry height="30" width="155" x="310" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr0_c3" parent="turr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="estado_turno" vertex="1">
+          <mxGeometry height="30" width="155" x="465" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr0_c4" parent="turr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="diagnostico_obs" vertex="1">
+          <mxGeometry height="30" width="155" x="620" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr0_c5" parent="turr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=#f8cecc;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="FK_num_historia_clinica" vertex="1">
+          <mxGeometry height="30" width="155" x="775" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr0_c6" parent="turr0" style="shape=partialRectangle;strokeColor=#000000;fillColor=#f8cecc;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="FK_matricula_prof" vertex="1">
+          <mxGeometry height="30" width="155" x="930" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr1" parent="t_tur" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="1085" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="turr1_c0" parent="turr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="TRN-101" vertex="1">
+          <mxGeometry height="30" width="155" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr1_c1" parent="turr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="20/10/2026" vertex="1">
+          <mxGeometry height="30" width="155" x="155" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr1_c2" parent="turr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="09:00" vertex="1">
+          <mxGeometry height="30" width="155" x="310" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr1_c3" parent="turr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Confirmado" vertex="1">
+          <mxGeometry height="30" width="155" x="465" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr1_c4" parent="turr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Control anual" vertex="1">
+          <mxGeometry height="30" width="155" x="620" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr1_c5" parent="turr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="HC-001" vertex="1">
+          <mxGeometry height="30" width="155" x="775" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr1_c6" parent="turr1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-4521" vertex="1">
+          <mxGeometry height="30" width="155" x="930" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr2" parent="t_tur" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="1085" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="turr2_c0" parent="turr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="TRN-102" vertex="1">
+          <mxGeometry height="30" width="155" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr2_c1" parent="turr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="21/10/2026" vertex="1">
+          <mxGeometry height="30" width="155" x="155" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr2_c2" parent="turr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="10:30" vertex="1">
+          <mxGeometry height="30" width="155" x="310" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr2_c3" parent="turr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Atendido" vertex="1">
+          <mxGeometry height="30" width="155" x="465" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr2_c4" parent="turr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Fiebre y tos" vertex="1">
+          <mxGeometry height="30" width="155" x="620" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr2_c5" parent="turr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="HC-002" vertex="1">
+          <mxGeometry height="30" width="155" x="775" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr2_c6" parent="turr2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-4890" vertex="1">
+          <mxGeometry height="30" width="155" x="930" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr3" parent="t_tur" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="1085" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="turr3_c0" parent="turr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="TRN-103" vertex="1">
+          <mxGeometry height="30" width="155" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr3_c1" parent="turr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="22/10/2026" vertex="1">
+          <mxGeometry height="30" width="155" x="155" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr3_c2" parent="turr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="11:15" vertex="1">
+          <mxGeometry height="30" width="155" x="310" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr3_c3" parent="turr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Pendiente" vertex="1">
+          <mxGeometry height="30" width="155" x="465" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr3_c4" parent="turr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Dolor lumbar" vertex="1">
+          <mxGeometry height="30" width="155" x="620" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr3_c5" parent="turr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="HC-003" vertex="1">
+          <mxGeometry height="30" width="155" x="775" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr3_c6" parent="turr3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-5120" vertex="1">
+          <mxGeometry height="30" width="155" x="930" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr4" parent="t_tur" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="1085" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="turr4_c0" parent="turr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="TRN-104" vertex="1">
+          <mxGeometry height="30" width="155" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr4_c1" parent="turr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="23/10/2026" vertex="1">
+          <mxGeometry height="30" width="155" x="155" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr4_c2" parent="turr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="14:00" vertex="1">
+          <mxGeometry height="30" width="155" x="310" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr4_c3" parent="turr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Confirmado" vertex="1">
+          <mxGeometry height="30" width="155" x="465" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr4_c4" parent="turr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Revision cutanea" vertex="1">
+          <mxGeometry height="30" width="155" x="620" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr4_c5" parent="turr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="HC-004" vertex="1">
+          <mxGeometry height="30" width="155" x="775" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr4_c6" parent="turr4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-5334" vertex="1">
+          <mxGeometry height="30" width="155" x="930" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr5" parent="t_tur" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="1085" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="turr5_c0" parent="turr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="TRN-105" vertex="1">
+          <mxGeometry height="30" width="155" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr5_c1" parent="turr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="24/10/2026" vertex="1">
+          <mxGeometry height="30" width="155" x="155" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr5_c2" parent="turr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="16:30" vertex="1">
+          <mxGeometry height="30" width="155" x="310" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr5_c3" parent="turr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Cancelado" vertex="1">
+          <mxGeometry height="30" width="155" x="465" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr5_c4" parent="turr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Control visual" vertex="1">
+          <mxGeometry height="30" width="155" x="620" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr5_c5" parent="turr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="HC-005" vertex="1">
+          <mxGeometry height="30" width="155" x="775" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="turr5_c6" parent="turr5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MP-5891" vertex="1">
+          <mxGeometry height="30" width="155" x="930" as="geometry">
+            <mxRectangle height="30" width="155" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_medica" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;verticalAlign=middle;strokeColor=#82b366;fillColor=#d5e8d4;swimlaneLine=1;tableRender=collapsed;" value="MEDICAMENTO" vertex="1">
+          <mxGeometry height="220" width="770" x="515" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="medicar0" parent="t_medica" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];fillColor=#f5f5f5;strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="770" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="medicar0_c0" parent="medicar0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="PK_codigo_alfanumerico" vertex="1">
+          <mxGeometry height="30" width="150" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar0_c1" parent="medicar0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="nombre_comercial" vertex="1">
+          <mxGeometry height="30" width="130" x="150" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar0_c2" parent="medicar0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="monodroga" vertex="1">
+          <mxGeometry height="30" width="120" x="280" as="geometry">
+            <mxRectangle height="30" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar0_c3" parent="medicar0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="laboratorio_fabricante" vertex="1">
+          <mxGeometry height="30" width="190" x="400" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar0_c4" parent="medicar0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="presentacion" vertex="1">
+          <mxGeometry height="30" width="180" x="590" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar1" parent="t_medica" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="770" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="medicar1_c0" parent="medicar1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MED-001" vertex="1">
+          <mxGeometry height="30" width="150" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar1_c1" parent="medicar1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Bayer Aspirina" vertex="1">
+          <mxGeometry height="30" width="130" x="150" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar1_c2" parent="medicar1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Acido Acetilsalicilico" vertex="1">
+          <mxGeometry height="30" width="120" x="280" as="geometry">
+            <mxRectangle height="30" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar1_c3" parent="medicar1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Bayer" vertex="1">
+          <mxGeometry height="30" width="190" x="400" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar1_c4" parent="medicar1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Comprimidos x 500mg" vertex="1">
+          <mxGeometry height="30" width="180" x="590" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar2" parent="t_medica" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="770" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="medicar2_c0" parent="medicar2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MED-002" vertex="1">
+          <mxGeometry height="30" width="150" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar2_c1" parent="medicar2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Sertal Composed" vertex="1">
+          <mxGeometry height="30" width="130" x="150" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar2_c2" parent="medicar2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Propinox + Clonixinato" vertex="1">
+          <mxGeometry height="30" width="120" x="280" as="geometry">
+            <mxRectangle height="30" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar2_c3" parent="medicar2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Roemmers" vertex="1">
+          <mxGeometry height="30" width="190" x="400" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar2_c4" parent="medicar2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Estuche x 20 comprimidos" vertex="1">
+          <mxGeometry height="30" width="180" x="590" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar3" parent="t_medica" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="770" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="medicar3_c0" parent="medicar3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MED-003" vertex="1">
+          <mxGeometry height="30" width="150" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar3_c1" parent="medicar3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Ibupirac 400" vertex="1">
+          <mxGeometry height="30" width="130" x="150" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar3_c2" parent="medicar3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Ibuprofeno" vertex="1">
+          <mxGeometry height="30" width="120" x="280" as="geometry">
+            <mxRectangle height="30" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar3_c3" parent="medicar3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Pfizer" vertex="1">
+          <mxGeometry height="30" width="190" x="400" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar3_c4" parent="medicar3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Capsulas blandas x 10" vertex="1">
+          <mxGeometry height="30" width="180" x="590" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar4" parent="t_medica" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="770" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="medicar4_c0" parent="medicar4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MED-004" vertex="1">
+          <mxGeometry height="30" width="150" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar4_c1" parent="medicar4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Amoxidal 500" vertex="1">
+          <mxGeometry height="30" width="130" x="150" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar4_c2" parent="medicar4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Amoxicilina" vertex="1">
+          <mxGeometry height="30" width="120" x="280" as="geometry">
+            <mxRectangle height="30" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar4_c3" parent="medicar4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="GlaxoSmithKline" vertex="1">
+          <mxGeometry height="30" width="190" x="400" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar4_c4" parent="medicar4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Comprimidos x 21" vertex="1">
+          <mxGeometry height="30" width="180" x="590" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar5" parent="t_medica" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="770" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="medicar5_c0" parent="medicar5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MED-005" vertex="1">
+          <mxGeometry height="30" width="150" as="geometry">
+            <mxRectangle height="30" width="150" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar5_c1" parent="medicar5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Tafirol 1g" vertex="1">
+          <mxGeometry height="30" width="130" x="150" as="geometry">
+            <mxRectangle height="30" width="130" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar5_c2" parent="medicar5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Paracetamol" vertex="1">
+          <mxGeometry height="30" width="120" x="280" as="geometry">
+            <mxRectangle height="30" width="120" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar5_c3" parent="medicar5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Genomma Lab" vertex="1">
+          <mxGeometry height="30" width="190" x="400" as="geometry">
+            <mxRectangle height="30" width="190" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="medicar5_c4" parent="medicar5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="Comprimidos x 10" vertex="1">
+          <mxGeometry height="30" width="180" x="590" as="geometry">
+            <mxRectangle height="30" width="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t_receta" parent="1" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=1;fontStyle=1;align=center;verticalAlign=middle;strokeColor=#82b366;fillColor=#d5e8d4;swimlaneLine=1;tableRender=collapsed;" value="RECETA_MEDICAMENTO" vertex="1">
+          <mxGeometry height="220" width="850" x="475.5" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="recetar0" parent="t_receta" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];fillColor=#f5f5f5;strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="850" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="recetar0_c0" parent="recetar0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="PK_receta_medicamento" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar0_c1" parent="recetar0" style="shape=partialRectangle;strokeColor=#000000;fillColor=#f8cecc;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="FK_id_turno" vertex="1">
+          <mxGeometry height="30" width="170" x="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar0_c2" parent="recetar0" style="shape=partialRectangle;strokeColor=#000000;fillColor=#f8cecc;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="FK_medico_especialidad" vertex="1">
+          <mxGeometry height="30" width="170" x="340" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar0_c3" parent="recetar0" style="shape=partialRectangle;strokeColor=#000000;fillColor=#f8cecc;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="FK_codigo_alfanumerico" vertex="1">
+          <mxGeometry height="30" width="170" x="510" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar0_c4" parent="recetar0" style="shape=partialRectangle;strokeColor=#000000;fillColor=inherit;fontStyle=1;align=center;verticalAlign=middle;swimlaneLine=1;" value="indicaciones" vertex="1">
+          <mxGeometry height="30" width="170" x="680" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar1" parent="t_receta" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="850" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="recetar1_c0" parent="recetar1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="REC-501" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar1_c1" parent="recetar1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="TRN-101" vertex="1">
+          <mxGeometry height="30" width="170" x="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar1_c2" parent="recetar1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ME-01" vertex="1">
+          <mxGeometry height="30" width="170" x="340" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar1_c3" parent="recetar1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MED-001" vertex="1">
+          <mxGeometry height="30" width="170" x="510" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar1_c4" parent="recetar1" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="1 cada 24hs con comida" vertex="1">
+          <mxGeometry height="30" width="170" x="680" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar2" parent="t_receta" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="850" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="recetar2_c0" parent="recetar2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="REC-502" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar2_c1" parent="recetar2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="TRN-102" vertex="1">
+          <mxGeometry height="30" width="170" x="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar2_c2" parent="recetar2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ME-02" vertex="1">
+          <mxGeometry height="30" width="170" x="340" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar2_c3" parent="recetar2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MED-003" vertex="1">
+          <mxGeometry height="30" width="170" x="510" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar2_c4" parent="recetar2" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="1 cada 8hs si hay dolor" vertex="1">
+          <mxGeometry height="30" width="170" x="680" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar3" parent="t_receta" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="850" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="recetar3_c0" parent="recetar3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="REC-503" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar3_c1" parent="recetar3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="TRN-103" vertex="1">
+          <mxGeometry height="30" width="170" x="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar3_c2" parent="recetar3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ME-03" vertex="1">
+          <mxGeometry height="30" width="170" x="340" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar3_c3" parent="recetar3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MED-002" vertex="1">
+          <mxGeometry height="30" width="170" x="510" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar3_c4" parent="recetar3" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="1 cada 12hs sublingual" vertex="1">
+          <mxGeometry height="30" width="170" x="680" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar4" parent="t_receta" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="850" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="recetar4_c0" parent="recetar4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="REC-504" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar4_c1" parent="recetar4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="TRN-104" vertex="1">
+          <mxGeometry height="30" width="170" x="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar4_c2" parent="recetar4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ME-04" vertex="1">
+          <mxGeometry height="30" width="170" x="340" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar4_c3" parent="recetar4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MED-004" vertex="1">
+          <mxGeometry height="30" width="170" x="510" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar4_c4" parent="recetar4" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="1 cada 8hs por 7 dias" vertex="1">
+          <mxGeometry height="30" width="170" x="680" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar5" parent="t_receta" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneTail=0;collapsible=1;dropTarget=0;points=[];strokeColor=#000000;swimlaneLine=1;" value="" vertex="1">
+          <mxGeometry height="30" width="850" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="recetar5_c0" parent="recetar5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="REC-505" vertex="1">
+          <mxGeometry height="30" width="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar5_c1" parent="recetar5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="TRN-105" vertex="1">
+          <mxGeometry height="30" width="170" x="170" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar5_c2" parent="recetar5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="ME-05" vertex="1">
+          <mxGeometry height="30" width="170" x="340" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar5_c3" parent="recetar5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="MED-005" vertex="1">
+          <mxGeometry height="30" width="170" x="510" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="recetar5_c4" parent="recetar5" style="shape=partialRectangle;strokeColor=#000000;fillColor=none;align=center;verticalAlign=middle;swimlaneLine=1;" value="1 cada 6hs ante fiebre" vertex="1">
+          <mxGeometry height="30" width="170" x="680" as="geometry">
+            <mxRectangle height="30" width="170" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
